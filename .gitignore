@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.coverage
+htmlcov/
+dist/
+build/
+.idea/
+.vscode/
+.DS_Store
+
+# Keep raw personal financial data out of version control.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
